@@ -117,8 +117,10 @@ function draw() {
             reset();
         }
     }
-
-
+//extended ground
+    stroke(rgb(243, 209, 136));
+    fill(rgb(243, 209, 136));
+    rect(0, ground.y + 6, 605, 70);
     drawSprites();
 }
 
